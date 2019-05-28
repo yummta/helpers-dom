@@ -8,7 +8,6 @@
   "unpkg": "dist/index.umd.js",
   "scripts": {
     "test": "jest",
-    "prebuild": "npm test",
     "build": "microbundle",
     "dev": "microbundle watch",
     "prepublish": "npm run build"
