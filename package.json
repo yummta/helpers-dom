@@ -1,22 +1,24 @@
 {
   "name": "helpers-dom",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "DOM manager",
   "source": "src/index.js",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "unpkg": "dist/index.umd.js",
   "scripts": {
-    "test": "jest",
     "build": "microbundle",
-    "dev": "microbundle watch",
-    "prepublish": "npm run build"
+    "dev": "microbundle watch"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yummta/helpers-dom.git"
   },
-  "keywords": [],
+  "keywords": [
+    "DOM",
+    "easy",
+    "html"
+  ],
   "author": "Paul Portillo",
   "license": "ISC",
   "bugs": {
@@ -36,11 +38,9 @@
   },
   "devDependencies": {
     "@babel/preset-env": "^7.4.5",
-    "babel-jest": "^24.8.0",
     "eslint": "^5.16.0",
     "eslint-config-prettier": "^4.3.0",
     "eslint-plugin-prettier": "^3.1.0",
-    "husky": "^2.3.0",
     "lint-staged": "^8.1.7",
     "microbundle": "^0.11.0",
     "prettier": "^1.17.1"
